@@ -1,0 +1,12 @@
+.ProductImage {
+    border-radius: 50%;
+    position: relative;
+    height: inherit;
+}
+.img {
+    position: absolute;
+    bottom: 5%;
+    left: -10%;
+    height: auto;
+    width: 120%;
+}

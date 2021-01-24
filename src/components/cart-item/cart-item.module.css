@@ -1,0 +1,66 @@
+.CartItem {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.productContent {
+    position: relative;
+}
+
+.productImgWrap {
+    width: 100px;
+    height: 100px;
+}
+
+.productTitleContainer {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-family: "inknut_antiquablack";
+}
+
+.productTitleContainer p {
+    margin: 0;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.productName {
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+}
+
+p.productType {
+    margin: -12px 0 0 58px;
+}
+
+.productPrice {
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 12px;
+}
+
+.cartCountPosition {
+    right: -14px;
+    top: 8px;
+    position: absolute;
+}
+
+.incrementContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    right: 0;
+    width: 25px;
+}
+
+.removeButton {
+    position: absolute;
+    bottom: 18px;
+    left: 112px;
+    font-family: 'Newt Serif Regular';
+    font-size: 11px;
+}

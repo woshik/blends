@@ -1,0 +1,97 @@
+body {
+  display: block;
+  margin: 0;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 50%;
+  margin: auto;
+}
+
+.productOverview {
+  text-align: center;
+}
+.logoContainer p {
+  color: #659f70;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+}
+.productOverview p {
+  text-align: center;
+  color: #659f70;
+  font-size: 24px;
+  font-weight: 700;
+}
+.productOverview img {
+  max-width: 100%;
+}
+
+.ingredientsImg {
+  width: 45%;
+}
+
+.packagingImg {
+  width: 35%;
+}
+
+.mainTitle {
+  text-align: left;
+  color: #659f70;
+}
+.mainTitle h1 {
+  display: inline-block;
+  font-size: 60px;
+  margin: 0;
+  font-weight: 700;
+}
+.mainTitle p {
+  display: inline-block;
+  font-size: 28px;
+  padding-left: 10px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.topSection {
+  background-color: #c7f2e8;
+}
+
+.containSection {
+  background-color: #f00;
+}
+.logoContainer, .productOverview {
+  width: 50%;
+  float: left;
+}
+.mainTitle {
+  border: 0;
+}
+.productGroupIntro {
+  width: 33.33%;
+  float: left;
+}
+.teaSection {
+  background-color: #b4412a;
+}
+.drinkSection {
+  background-color: #c7f2e8;
+}
+div#box div {
+  width: 33.33%;
+  float: left;
+}
+.clear {
+  clear: both;
+}
+
+@media (min-width: 824px) {
+  .mainTitle {
+    text-align: left;
+  }
+}

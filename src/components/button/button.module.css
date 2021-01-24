@@ -1,0 +1,33 @@
+.button {
+  padding: 10px 12px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  font-family: "Newt Serif Bold Regular";
+  color: rgba(250, 250, 250, 0.6);
+  text-transform: uppercase;
+  background: #1a4040;
+}
+
+.button:hover {
+  color: rgba(250, 250, 250, 0.75);
+}
+
+.buttonIcon {
+    margin-right: 6px;
+}
+
+.button.outline {
+    background: transparent;
+    border: 2px solid #1a4040;
+    color: #1a4040;
+}
+
+.button.outline:hover {
+    background: #1a4040;
+    color: rgba(250, 250, 250, 0.75);
+}

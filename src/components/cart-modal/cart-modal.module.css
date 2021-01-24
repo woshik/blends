@@ -1,0 +1,11 @@
+.cartModalContainer {
+    position: fixed;
+    right: 6px;
+    width: 350px;
+    top: 44px;
+}
+
+.cartFooter {
+    display: flex;
+    justify-content: space-between;
+}

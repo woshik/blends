@@ -1,0 +1,11 @@
+.cart {
+    position: fixed;
+    top: 10px;
+    right: 24px;
+}
+
+.cartCountPosition {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}

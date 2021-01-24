@@ -1,0 +1,13 @@
+.cart-count {
+    border: 1px solid;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background: #fff;
+    font-family: "Newt Serif Regular";
+}
