@@ -2,17 +2,20 @@ body {
   display: block;
   margin: 0;
 }
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
 .logoContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-
 .logo {
-  width: 50%;
+  width: 60%;
   margin: auto;
+  padding-top: 250px;
 }
-
 .productOverview {
   text-align: center;
 }
@@ -29,17 +32,8 @@ body {
   font-weight: 700;
 }
 .productOverview img {
-  max-width: 100%;
+  max-width: 60%;
 }
-
-.ingredientsImg {
-  width: 45%;
-}
-
-.packagingImg {
-  width: 35%;
-}
-
 .mainTitle {
   text-align: left;
   color: #659f70;
@@ -57,13 +51,11 @@ body {
   margin: 0;
   font-weight: 700;
 }
-
 .topSection {
   background-color: #c7f2e8;
 }
-
-.containSection {
-  background-color: #f00;
+.topContent {
+  background-color: transparent;
 }
 .logoContainer, .productOverview {
   width: 50%;
@@ -86,12 +78,174 @@ div#box div {
   width: 33.33%;
   float: left;
 }
+#landing-footer {
+  background-color: #ccc;
+}
+.footerContainer {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 80px 0 30px;
+}
+#landing-footer-intro p {
+  color: #659f70;
+}
+.footerContainer img {
+  width: 25%;
+  margin-top: 50px;
+  float: left;
+}
+.footerContainer form {
+  width: 50%;
+  margin-top: 50px;
+  float: left;
+  padding-left: 5%;
+}
+.footerContainer form input[type="text"] {
+  width: 45.5%;
+  float: left;
+  margin: 0 1.5% 0 0;
+  height: 35px;
+  border-radius: 50px;
+  padding: 0 0 0 15px;
+}
+.footerContainer form textarea {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.footerContainer form button[type="submit"] {
+  background-color: #659f70;
+  float: right;
+  padding: 10px;
+  color: #fff;
+}
 .clear {
   clear: both;
 }
 
-@media (min-width: 824px) {
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .container, .footerContainer {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container, .footerContainer {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container, .footerContainer {
+      max-width: 720px;
+  }
+  .logoContainer, .productOverview {
+    width: 100%;
+    float: none;
+  }
+  .logo {
+    padding-top: 50px;
+  }
   .mainTitle {
-    text-align: left;
+    padding-top: 50px;
+  }
+  .footerContainer img {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  .footerContainer form {
+    width: 100%;
+    margin-top: 50px;
+    float: none;
+    padding-left: 0;
+  }
+  .footerContainer form textarea {
+    padding: 10px 0 0 2%;
+    width: 98%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container, .footerContainer {
+    max-width: 540px;
+  }
+  .logoContainer, .productOverview {
+    width: 100%;
+    float: none;
+  }
+  .logo {
+    padding-top: 50px;
+  }
+  .mainTitle {
+    padding-top: 50px;
+  }
+  .footerContainer img {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  .footerContainer form {
+    width: 100%;
+    margin-top: 50px;
+    float: none;
+    padding-left: 0;
+  }
+  .footerContainer form input[type="text"] {
+    width: 95%;
+    margin: 0 1.5% 10px 0;
+    padding: 0 0 0 5%;
+  }
+  .footerContainer form textarea {
+    padding: 10px 0 0 2%;
+    width: 98%;
+    margin-top: 0;
+  }
+  .footerContainer form button[type="submit"] {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .container, .footerContainer {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .logoContainer, .productOverview {
+    width: 100%;
+    float: none;
+  }
+  .logo {
+    padding-top: 50px;
+  }
+  .mainTitle {
+    padding-top: 50px;
+  }
+  .footerContainer img {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  .footerContainer form {
+    width: 100%;
+    margin-top: 50px;
+    float: none;
+    padding-left: 0;
+  }
+  .footerContainer form input[type="text"] {
+    width: 95%;
+    margin: 0 1.5% 10px 0;
+    padding: 0 0 0 5%;
+  }
+  .footerContainer form textarea {
+    padding: 10px 0 0 2%;
+    width: 98%;
+    margin-top: 0;
+  }
+  .footerContainer form button[type="submit"] {
+    margin-top: 20px;
   }
 }

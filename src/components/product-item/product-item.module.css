@@ -1,3 +1,31 @@
 .productImg {
-    width: 325px;
+  width: 325px;
+  padding: 70px 0;
 }
+.circle {
+  background-color: #babac0;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.box {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.box h3, .box a  {
+  display: none;
+}
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: lowercase;
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 15px;
+}
+

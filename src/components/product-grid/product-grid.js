@@ -5,20 +5,21 @@ import styles from "./product-grid.module.css";
 
 const ProductsGrid = ({ name, description, type: gridType }) => {
   const { products } = useContext(ProductsContext);
-  const { productGroupIntro, boxWrapper } = styles;
+  const { titleSection, boxWrapper, container, boxContent, clear } = styles;
 
   return (
-    <div>
-      <div className={productGroupIntro}>
-        <h2>{name}</h2>
-        <p>{description}</p>
-      </div>
+    <div className={container}>
       <div className={boxWrapper}>
           {products
             .filter(({ type: productType }) => productType === gridType)
             .map((product) => (
-              <ProductItem key={product.id} product={product} />
+                <div className={boxContent}><ProductItem key={product.id} product={product} /></div>
           ))}
+       <div className={clear}></div>
+      </div>
+      <div className={titleSection}>
+        <h2>{name}</h2>
+        <p>{description}</p>
       </div>
     </div>
   );
