@@ -6,22 +6,26 @@
 .titleSection {
   text-align: left;
   position: relative;
+  color: #db7705;
 }
 .titleSection h2 {
   color: #000;
-  font-size: 30px;
+  font-size: 50px;
+  color: #db7705;
 }
 .titleSection:first-letter {
   float:left;
   font-weight: 700;
-  font-size: 90px;
-  line-height: 30px;
+  font-size: 100px;
+  line-height: 60px;
   text-transform: uppercase;
 }
 .titleSection p {
   position: absolute;
-  top: 16px;
-  left: 62px;
+  top: 27px;
+  left: 69px;
+  font-size: 20px;
+  color: #db7705;
 }
 .boxWrapper {
   margin-bottom: 70px;

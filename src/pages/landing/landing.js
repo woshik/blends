@@ -18,6 +18,10 @@ const Landing = () => {
     endResultImg,
     mainTitle,
     footerContainer,
+    footerSection,
+    footerContent,
+    nameField,
+    emailField,
     clear
   } = styles;
   return (
@@ -81,9 +85,9 @@ const Landing = () => {
         />
         <div className={clear}></div>
       </div>
-      <div id="landing-footer">
+      <div id="landing-footer" className={footerSection}>
         <div className={footerContainer}>
-          <div id="landing-footer-intro">
+          <div id="landing-footer-intro" className={footerContent}>
           <p>Temple Blends is a rapidly growing company.</p>
           <p>
             Any feedback helps - tell us about your order, give us suggestions
@@ -92,8 +96,8 @@ const Landing = () => {
         </div>
           <img src="img/logo.svg" alt="Temple Blends Logo"/>
           <form>
-            <input type="text" placeholder="Name"/>
-            <input type="text" placeholder="Email"/>
+            <input className={nameField} type="text" placeholder="Name"/>
+            <input className={emailField} type="text" placeholder="Email"/>
             <textarea
                 name=""
                 id=""

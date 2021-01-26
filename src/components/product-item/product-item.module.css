@@ -3,7 +3,7 @@
   padding: 70px 0;
 }
 .circle {
-  background-color: #babac0;
+  background-color: #da7805;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -20,6 +20,7 @@
 .title {
   font-size: 32px;
   font-weight: 700;
+  color: #750303;
   text-transform: lowercase;
   position: absolute;
   margin: 0 auto;
@@ -28,4 +29,5 @@
   right: 0;
   top: 15px;
 }
+
 
