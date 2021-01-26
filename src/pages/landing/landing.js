@@ -20,6 +20,7 @@ const Landing = () => {
     footerContainer,
     footerSection,
     footerContent,
+    footerLogo,
     nameField,
     emailField,
     clear
@@ -94,7 +95,7 @@ const Landing = () => {
             or just say hi!
           </p>
         </div>
-          <img src="img/logo.svg" alt="Temple Blends Logo"/>
+          <img src="img/logo.svg" className={footerLogo} alt="Temple Blends Logo"/>
           <form>
             <input className={nameField} type="text" placeholder="Name"/>
             <input className={emailField} type="text" placeholder="Email"/>
