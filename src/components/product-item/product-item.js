@@ -4,9 +4,9 @@ import { formatNumber } from '../../helpers/utils';
 import styles from './product-item.module.css';
 
 const ProductItem = ({product}) => {
-    const { circle, box, title } = styles;
+    const { circle, box, title, tea, drink } = styles;
     return (
-        <div className={box}>
+        <div className={`${box} ${product.type === 'tea' ? tea : drink}`}>
             <div className={circle}>
                 <p className={title}>{product.name}</p>
                 <img className={styles.productImg}
