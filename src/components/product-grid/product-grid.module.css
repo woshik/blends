@@ -3,6 +3,16 @@
   margin: 0 auto;
   padding: 80px 0 30px;
 }
+
+.tea .titleSection {
+  color: skyblue
+}
+
+.drink .titleSection {
+  color: skyblue
+}
+
+
 .titleSection {
   text-align: left;
   position: relative;
