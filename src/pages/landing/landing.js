@@ -78,7 +78,7 @@ const Landing = () => {
             name="Tea"
             className="tea"
             description="relax, vitalize or indulge with these unique tea blends"
-           
+
         />
       </div>
       <div className={drinkSection}>
@@ -120,7 +120,7 @@ const Landing = () => {
               Let me know about new products and website features
             </label>
             <button type="submit">
-              Send
+              <img src="img/send.png" alt="Send email"/>
             </button>
           </form>
           <div className={clear}></div>

@@ -77,6 +77,10 @@
   .titleSection h2 {
     margin: 15px 0 30px;
   }
+  .titleSection p {
+    top: 21px;
+    font-size: 16px;
+  }
   .desktop {
     display: none;
   }
@@ -99,10 +103,14 @@
     margin-bottom: 20px;
   }
   .titleSection {
-    margin: 0 0 40px;
+    margin: 0 0 70px;
   }
   .titleSection h2 {
     margin: 15px 0;
+  }
+  .titleSection p {
+    top: 21px;
+    font-size: 16px;
   }
   .desktop {
     display: none;
