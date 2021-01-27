@@ -2,6 +2,16 @@
   width: 325px;
   padding: 70px 0;
 }
+
+.tea .circle {
+  background-color: skyblue;
+}
+
+.drink .circle {
+  background-color: yellow;
+}
+
+
 .circle {
   background-color: #da7805;
   width: 300px;

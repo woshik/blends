@@ -76,7 +76,6 @@ const Landing = () => {
         <ProductGrid
             type="tea"
             name="Tea"
-            className="tea"
             description="relax, vitalize or indulge with these unique tea blends"
            
         />
@@ -85,7 +84,6 @@ const Landing = () => {
         <ProductGrid
             type="drink-mix"
             name="Drink Mixes"
-            className="drink"
             description="just add water or plant milk for a nutritous flavored drink"
         />
         <div className={clear}></div>
