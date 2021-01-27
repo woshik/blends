@@ -4,25 +4,24 @@
   padding: 80px 0 30px;
 }
 
-.tea .titleSection {
-  color: skyblue
+.tea .titleSection, .tea .titleSection h2, .tea .titleSection p  {
+  color: #db7705;
 }
 
 .drink .titleSection {
-  color: skyblue
+  color: #83a88c;
 }
-
+.drink .titleSection p {
+  left: 74px;
+}
 
 .titleSection {
   text-align: left;
   position: relative;
-  color: #db7705;
 }
 .titleSection h2 {
-  color: #000;
   font-size: 42px;
   line-height: 40px;
-  color: #db7705;
   margin: 0;
 }
 .titleSection:first-letter {
@@ -33,10 +32,9 @@
 }
 .titleSection p {
   position: absolute;
-  top: 14px;
+  top: 17px;
   left: 69px;
-  font-size: 20px;
-  color: #db7705;
+  font-size: 18px;
 }
 .mobileOnly {
     display: none;
