@@ -61,7 +61,7 @@ body {
   font-weight: 700;
 }
 .topSection {
-  background-color: #c7f2e8;
+  background-image: url('/img/hero.jpg');
 }
 .topContent {
   background-color: transparent;
@@ -104,7 +104,7 @@ div#box div {
   color: #659f70;
 }
 .footerSection {
-  background-color: #f3efe3;
+  background-image: url('/img/footer.jpg');
 }
 .footerSection p {
   font-size: 18px;
@@ -291,9 +291,9 @@ div#box div {
   .footerLogo {
     display: none !important;
   }
-  .footerContainer {
-    /*background-image: url("../../../public/img/logo.svg");*/
-  }
+  /* .footerContainer {
+    background-image: url("/img/footer.jpg");
+  } */
   .footerContainer img {
     width: 50%;
     float: none;
