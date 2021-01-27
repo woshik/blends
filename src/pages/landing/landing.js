@@ -29,6 +29,7 @@ const Landing = () => {
     <Layout
       page="home"
       description="Infuse your soul with these delicious, natural drink blends"
+      showFooter={false}
     >
       <div className={topSection}>
         <div className={container}>

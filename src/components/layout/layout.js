@@ -4,7 +4,7 @@ import Footer from '../footer';
 
 import { Helmet } from 'react-helmet-async';
 
-const Layout = ({ title, description, children, page }) => {
+const Layout = ({ title, description, children, page, showFooter=true }) => {
     return ( 
         <>
         <Helmet>
@@ -15,7 +15,7 @@ const Layout = ({ title, description, children, page }) => {
         <div>
             {children}
         </div>
-        <Footer/>
+        {showFooter ? <Footer/> : null}
         </>
      );
 }
