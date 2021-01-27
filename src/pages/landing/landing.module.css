@@ -164,6 +164,13 @@ div#box div {
 .clear {
   clear: both;
 }
+.drinkSection .circle {
+  background-color: #a2b7a5;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .container, .footerContainer {
@@ -220,6 +227,7 @@ div#box div {
   .mainTitle {
     padding-top: 50px;
     padding-bottom: 20px;
+    text-align: center;
   }
   .topContent {
     display: block;
@@ -255,10 +263,15 @@ div#box div {
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
-  .container, .footerContainer {
+  .container {
     max-width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .footerContainer {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .logoContainer, .productOverview {
     width: 100%;
@@ -270,6 +283,7 @@ div#box div {
   .mainTitle {
     padding-top: 50px;
     padding-bottom: 20px;
+    text-align: center;
   }
   .topContent {
     display: block;

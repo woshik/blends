@@ -10,19 +10,20 @@
 }
 .titleSection h2 {
   color: #000;
-  font-size: 50px;
+  font-size: 42px;
+  line-height: 40px;
   color: #db7705;
+  margin: 0;
 }
 .titleSection:first-letter {
   float:left;
   font-weight: 700;
   font-size: 100px;
-  line-height: 60px;
   text-transform: uppercase;
 }
 .titleSection p {
   position: absolute;
-  top: 27px;
+  top: 14px;
   left: 69px;
   font-size: 20px;
   color: #db7705;
@@ -36,7 +37,6 @@
 .boxContent {
   width: 33.33%;
   float: left;
-  padding: 0 5px;
 }
 .clear {
   clear: both;
@@ -89,6 +89,8 @@
     max-width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .boxContent {
     width: 100%;
@@ -107,6 +109,9 @@
   }
   .mobileOnly {
     display: block;
+  }
+  .boxWrapper {
+    margin-bottom: 10px;
   }
 
 }
