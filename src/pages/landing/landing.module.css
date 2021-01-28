@@ -41,7 +41,7 @@ body {
   font-weight: 700;
 }
 .productOverview img {
-  max-width: 60%;
+  max-width: 30%;
 }
 .mainTitle {
   text-align: left;
@@ -63,7 +63,7 @@ body {
 .topSection {
   background-color: #c7f2e8;
   background-image: url('/img/hero.jpg');
-  background-position: center center;
+  height: 100vh;
 }
 .topContent {
   background-color: transparent;
@@ -177,19 +177,15 @@ label > input[type="checkbox"] + *::before {
   height: 1rem;
   margin-right: 0.3rem;
   border-radius: 10%;
-  border-style: solid;
-  border-width: 0.1rem;
-  border-color: #000;
+  border: 2px solid #659f70;
 }
-label > input[type="checkbox"]:checked + * {
-  color: #659f70;
-}
-label > input[type="checkbox"]:checked + *::before {
+
+label > input[type="checkbox"]:checked ~ span::before {
   content: "✓";
   color: white;
   text-align: center;
-  background-color: #659f70;
   border-color: #659f70;
+  background-color: #659f70;
   font-size: 12px;
 }
 label > input[type="checkbox"] + * {
@@ -255,6 +251,10 @@ button img {
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .topSection {
+    height: unset;
+  }
+
   .container, .footerContainer {
     max-width: 540px;
   }
@@ -306,6 +306,10 @@ button img {
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
+  .topSection {
+    height: unset;
+  }
+
   .container {
     max-width: 100%;
     padding-left: 0;

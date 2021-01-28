@@ -115,13 +115,12 @@ const Landing = () => {
             </button>
             <label htmlFor="newsletter-signup">
               <input
-                  type="checkbox"
-                  id="newsletter-signup"
-                  name="newsletter-signup checkbox"
-                  checked
+                type="checkbox"
+                id="newsletter-signup"
+                name="newsletter-signup checkbox"
               />
+               
               <span>Let me know about new products and website features</span>
-
             </label>
           </form>
           <div className={clear}></div>
