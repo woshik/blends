@@ -2,6 +2,8 @@
   max-width: 1320px;
   margin: 0 auto;
   padding: 80px 0 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .tea .titleSection, .tea .titleSection h2, .tea .titleSection p  {
@@ -36,9 +38,6 @@
   left: 69px;
   font-size: 18px;
 }
-.mobileOnly {
-    display: none;
-}
 .boxWrapper {
   margin-bottom: 70px;
 }
@@ -63,6 +62,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container {
       max-width: 720px;
+      flex-direction: column-reverse;
   }
   .boxContent {
     width: 100%;
@@ -75,6 +75,7 @@
   .container {
     max-width: 540px;
     padding: 30px 0;
+    flex-direction: column-reverse;
   }
   .boxContent {
     width: 100%;
@@ -89,12 +90,6 @@
     top: 21px;
     font-size: 16px;
   }
-  .desktop {
-    display: none;
-  }
-  .mobileOnly {
-    display: block;
-  }
 }
 @media (min-width: 320px) and (max-width: 575.98px) {
   .container {
@@ -103,6 +98,7 @@
     padding-right: 15px;
     padding-top: 30px;
     padding-bottom: 30px;
+    flex-direction: column-reverse;
   }
   .boxContent {
     width: 100%;
@@ -120,11 +116,8 @@
     top: 21px;
     font-size: 16px;
   }
-  .desktop {
-    display: none;
-  }
-  .mobileOnly {
-    display: block;
+  .boxWrapper {
+    margin-bottom: 10px;
   }
   .boxWrapper {
     margin-bottom: 10px;

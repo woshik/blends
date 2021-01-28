@@ -9,12 +9,6 @@ const ProductsGrid = ({ name, description, type: gridType }) => {
   
   return (
     <div className={`${container} ${gridType === "tea" ? tea : drink }`}>
-      <div className={mobileOnly}>
-        <div className={titleSection}>
-          <h2>{name}</h2>
-          <p>{description}</p>
-        </div>
-      </div>
       <div className={boxWrapper}>
           {products
             .filter(({ type: productType }) => productType === gridType)
