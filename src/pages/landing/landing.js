@@ -77,7 +77,7 @@ const Landing = () => {
             type="tea"
             name="Tea"
             description="relax, vitalize or indulge with these unique tea blends"
-           
+
         />
       </div>
       <div className={drinkSection}>
@@ -108,18 +108,20 @@ const Landing = () => {
                 rows="10"
                 placeholder="What’s on your mind?"
             ></textarea>
-            <input
-                type="checkbox"
-                id="newsletter-signup"
-                name="newsletter-signup"
-                checked
-            />
+            
+            
+            <button type="submit">
+              <img src="img/send-black-18dp.svg" alt="Send email"/>
+            </button>
             <label htmlFor="newsletter-signup">
+              <input
+                  type="checkbox"
+                  id="newsletter-signup"
+                  name="newsletter-signup"
+                  checked
+              />
               Let me know about new products and website features
             </label>
-            <button type="submit">
-              Send
-            </button>
           </form>
           <div className={clear}></div>
         </div>

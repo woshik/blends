@@ -61,6 +61,7 @@ body {
   font-weight: 700;
 }
 .topSection {
+  background-color: #c7f2e8;
   background-image: url('/img/hero.jpg');
 }
 .topContent {
@@ -118,6 +119,7 @@ div#box div {
 }
 .footerSection label {
   color: #659f70;
+  padding-right: 30px;
 }
 .footerContainer img {
   width: 25%;
@@ -139,6 +141,7 @@ div#box div {
 .footerContainer form input[type="text"] {
   width: 45%;
   height: 35px;
+  font-family: monospace;
   border-radius: 50px;
   padding: 0 0 0 15px;
   background-color: #4c8b58;
@@ -147,10 +150,9 @@ div#box div {
 }
 .footerContainer form textarea {
     width: 96.5%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    padding: 10px;
+    margin: 15px 0;
+    border-radius: 20px;
+    padding: 18px;
     background-color: #4c8b58;
     border: 0;
     color: #fff;
@@ -160,9 +162,22 @@ div#box div {
   float: right;
   padding: 10px;
   color: #fff;
+  border-radius: 50%;
+  transform: rotateZ(-25deg);
 }
 .clear {
   clear: both;
+}
+.drinkSection .circle {
+  background-color: #a2b7a5;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+button img {
+    width: 100% !important;
+    margin: 0 !important;
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -220,6 +235,7 @@ div#box div {
   .mainTitle {
     padding-top: 50px;
     padding-bottom: 20px;
+    text-align: center;
   }
   .topContent {
     display: block;
@@ -228,10 +244,10 @@ div#box div {
     display: none !important;
   }
   .footerContainer img {
-    width: 50%;
     float: none;
     margin: 0 auto;
     display: block;
+    width: 100%;
   }
   .footerContainer form {
     width: 100%;
@@ -249,16 +265,18 @@ div#box div {
     width: 98%;
     margin-top: 0;
   }
-  .footerContainer form button[type="submit"] {
-    margin-top: 20px;
-  }
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
-  .container, .footerContainer {
+  .container {
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footerContainer {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .logoContainer, .productOverview {
     width: 100%;
@@ -267,9 +285,21 @@ div#box div {
   .logo {
     padding-top: 50px;
   }
+  .productOverview {
+    background-image: url('/img/hero.jpg');
+    background-position: center center;
+    border-top: 1px solid #5F9F9A;
+    border-bottom: 1px solid #5F9F9A;
+  }
+  .topSection {
+    background-color: #c7f2e8;
+    background-image: none;
+    background-position: center center;
+  }
   .mainTitle {
     padding-top: 50px;
     padding-bottom: 20px;
+    text-align: center;
   }
   .topContent {
     display: block;
@@ -281,10 +311,10 @@ div#box div {
     background-image: url("/img/footer.jpg");
   } */
   .footerContainer img {
-    width: 50%;
     float: none;
     margin: 0 auto;
     display: block;
+    width: 100%;
   }
   .footerContainer form {
     width: 100%;
@@ -301,8 +331,5 @@ div#box div {
     padding: 10px 0 0 2%;
     width: 98%;
     margin-top: 0;
-  }
-  .footerContainer form button[type="submit"] {
-    margin-top: 20px;
   }
 }

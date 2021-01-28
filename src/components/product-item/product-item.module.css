@@ -8,10 +8,11 @@
 }
 
 .drink .circle {
-  background-color: yellow;
+  background-color: #a2b7a5;
 }
-
-
+.drink .title {
+  color: #43442f;
+}
 .circle {
   background-color: #da7805;
   width: 300px;
