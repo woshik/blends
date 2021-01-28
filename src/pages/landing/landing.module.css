@@ -63,6 +63,7 @@ body {
 .topSection {
   background-color: #c7f2e8;
   background-image: url('/img/hero.jpg');
+  background-position: center center;
 }
 .topContent {
   background-color: transparent;
