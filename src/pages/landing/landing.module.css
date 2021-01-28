@@ -276,6 +276,11 @@ button img {
   .footerLogo {
     display: none !important;
   }
+  .footerContent {
+    background-image: url('/img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .footerContainer img {
     float: none;
     margin: 0 auto;
@@ -310,6 +315,11 @@ button img {
     max-width: 100%;
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .footerContent {
+    background-image: url('/img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .logoContainer, .productOverview {
     width: 100%;

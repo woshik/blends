@@ -91,12 +91,12 @@ const Landing = () => {
       <div id="landing-footer" className={footerSection}>
         <div className={footerContainer}>
           <div id="landing-footer-intro" className={footerContent}>
-          <p>Temple Blends is a rapidly growing company.</p>
-          <p>
-            Any feedback helps - tell us about your order, give us suggestions
-            or just say hi!
-          </p>
-        </div>
+            <p>Temple Blends is a rapidly growing company.</p>
+            <p>
+              Any feedback helps - tell us about your order, give us suggestions
+              or just say hi!
+            </p>
+          </div>
           <img src="img/logo.svg" className={footerLogo} alt="Temple Blends Logo"/>
           <form>
             <input className={nameField} type="text" placeholder="Name"/>
