@@ -5,8 +5,8 @@ import styles from "./product-grid.module.css";
 
 const ProductsGrid = ({ name, description, type: gridType }) => {
   const { products } = useContext(ProductsContext);
-  const { titleSection, boxWrapper, container, boxContent, clear, mobileOnly, desktop, tea, drink } = styles;
-  
+  const { titleSection, boxWrapper, container, boxContent, clear, desktop, tea, drink } = styles;
+
   return (
     <div className={`${container} ${gridType === "tea" ? tea : drink }`}>
       <div className={boxWrapper}>

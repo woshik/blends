@@ -61,4 +61,29 @@
   top: 15px;
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .productImg {
+    max-width: 100%;
+  }
+  .circle {
+    width: 250px;
+    height: 250px;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .productImg {
+    max-width: 100%;
+  }
+  .circle {
+    width: 250px;
+    height: 250px;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
+
 

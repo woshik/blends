@@ -61,8 +61,13 @@
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container {
-      max-width: 720px;
-      flex-direction: column-reverse;
+    max-width: 720px;
+    flex-direction: column-reverse;
+    padding: 30px 0;
+
+  }
+  .titleSection h2 {
+    margin: 15px 0 40px;
   }
   .boxContent {
     width: 100%;
