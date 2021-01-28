@@ -108,8 +108,8 @@ const Landing = () => {
                 rows="10"
                 placeholder="What’s on your mind?"
             ></textarea>
-            
-            
+
+
             <button type="submit">
               <img src="img/send-black-18dp.svg" alt="Send email"/>
             </button>
@@ -117,10 +117,11 @@ const Landing = () => {
               <input
                   type="checkbox"
                   id="newsletter-signup"
-                  name="newsletter-signup"
+                  name="newsletter-signup checkbox"
                   checked
               />
-              Let me know about new products and website features
+              <span>Let me know about new products and website features</span>
+
             </label>
           </form>
           <div className={clear}></div>
